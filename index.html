@@ -40,14 +40,59 @@
     <!-- MAIN CONTENT SECTION -->
     <main class="container" id="mainContent">
         <h1 id="MainTitle" class="col-lg-offset-1 col-lg-10">The Travel Report</h1>
-        <h4 class="col-lg-offset-1 col-lg-10">body copy and image credits: Sophie-Claire Hoeller</h4>
+        <h4 class="col-lg-offset-1 col-lg-10">Body copy and image credits: Sophie-Claire Hoeller</h4>
         <article id="9Islands" class="row">
-            <h2 class="col-md-offset-1 col-md-10 col-xs-offset-1 col-xs-10">9 Gorgeous Greek islands</h2>
-            <p id="IntroParagraph" class="col-md-4 col-xs-offset-1 col-xs-10">
+            <h2 class="col-md-offset-1 col-md-10 col-xs-offset-1 col-xs-10">9 Gorgeous Greek islands:</h2>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="Assets/images/folegandros.jpg" class="d-block w-40" class="d-block l-80"alt="folegandros">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Assets/images/alonissos.jpg" class="d-block w-65" alt="alonissos">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Assets/images/spetses.jpg" class="d-block w-100" alt="spetses">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Assets/images/amorgos.jpg" class="d-block w-100" alt="amorgos">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Assets/images/syros.jpg" class="d-block w-100" alt="syros">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Assets/images/milos.jpg" class="d-block w-100" alt="milos">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Assets/images/hydra.jpg" class="d-block w-100" alt="hydra">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Assets/images/ithaca.jpg" class="d-block w-100" alt="ithaca">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Assets/images/gavdos.jpg" class="d-block w-100" alt="gavdos">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <p>&nbsp;</p> 
+            <p id="IntroParagraph" class="text-justify">
                 <!-- Inject your IntroParagraph here -->
-
+                <p>&nbsp;</p>
             </p>
-            <img class="col-md-6 col-xs-offset-1  col-xs-10" src="Assets/images/milos-greece-colorful-houses.jpg" alt="Milos Greece colorful houses">
+            <img class="rounded mx-auto d-block" src="Assets/images/milos-greece-colorful-houses.jpg" alt="Milos Greece colorful houses">
         </article>
         <hr>
 
@@ -58,7 +103,7 @@
         <article class="row">
             <h2 class="col-md-10 col-xs-offset-1 col-xs-10">Folegandros</h2>
             <img class="col-md-10 col-xs-offset-1 col-xs-10" src="Assets/images/folegandros.jpg" alt="Folegandros">
-            <p class="col-md-10 col-xs-offset-1 col-xs-10" id="Folegandros">
+            <p class="text-justify" id="Folegandros">
                 <!-- Inject your Folegandros paragraph here -->
             </p>
         </article>
@@ -67,7 +112,7 @@
         <article class="row">
             <h2 class="col-md-10 col-xs-offset-1 col-xs-10">Alonissos</h2>
             <img class="col-md-10 col-xs-offset-1 col-xs-10" src="Assets/images/alonissos.jpg" alt="Alonissos">
-            <p class="col-md-10 col-xs-offset-1 col-xs-10" id="Alonissos">
+            <p class="text-justify" id="Alonissos">
                 <!-- Inject your Alonissos paragraph here -->
             </p>
         </article>
@@ -76,7 +121,7 @@
         <article class="row">
             <h2 class="col-md-10 col-xs-offset-1 col-xs-10">Spetses</h2>
             <img class="col-md-10 col-xs-offset-1 col-xs-10" src="Assets/images/spetses.jpg" alt="Spetses">
-            <p class="col-md-10 col-xs-offset-1 col-xs-10" id="Spetses">
+            <p class="text-justify" id="Spetses">
                 <!-- Inject your Spetses paragraph here -->
             </p>
         </article>
@@ -85,7 +130,7 @@
         <article class="row">
             <h2 class="col-md-10 col-xs-offset-1 col-xs-10">Amorgos</h2>
             <img class="col-md-10 col-xs-offset-1 col-xs-10" src="Assets/images/amorgos.jpg" alt="Amorgos">
-            <p class="col-md-10 col-xs-offset-1 col-xs-10" id="Amorgos">
+            <p class="text-justify" id="Amorgos">
                 <!-- Inject your Amorgos paragraph here -->
             </p>
         </article>
@@ -94,7 +139,7 @@
         <article class="row">
             <h2 class="col-md-10 col-xs-offset-1 col-xs-10">Syros</h2>
             <img class="col-md-10 col-xs-offset-1 col-xs-10" src="Assets/images/syros.jpg" alt="Syros">
-            <p class="col-md-10 col-xs-offset-1 col-xs-10" id="Syros">
+            <p class="text-justify" id="Syros">
                 <!-- Inject your Syros paragraph here -->
             </p>
         </article>
@@ -103,7 +148,7 @@
         <article class="row">
             <h2 class="col-md-10 col-xs-offset-1 col-xs-10">Milos</h2>
             <img class="col-md-10 col-xs-offset-1 col-xs-10" src="Assets/images/milos.jpg" alt="Milos">
-            <p class="col-md-10 col-xs-offset-1 col-xs-10" id="Milos">
+            <p class="text-justify" id="Milos">
                 <!-- Inject your Milos paragraph here -->
             </p>
         </article>
@@ -112,7 +157,7 @@
         <article class="row">
             <h2 class="col-md-10 col-xs-offset-1 col-xs-10">Hydra</h2>
             <img class="col-md-10 col-xs-offset-1 col-xs-10" src="Assets/images/hydra.jpg" alt="Hydra">
-            <p class="col-md-10 col-xs-offset-1 col-xs-10" id="Hydra">
+            <p class="text-justify" id="Hydra">
                 <!-- Inject your Hydra paragraph here -->
             </p>
         </article>
@@ -122,7 +167,7 @@
         <article class="row">
             <h2 class="col-md-10 col-xs-offset-1 col-xs-10">Ithaca</h2>
             <img class="col-md-10 col-xs-offset-1 col-xs-10" src="Assets/images/ithaca.jpg" alt="Ithaca">
-            <p class="col-md-10 col-xs-offset-1 col-xs-10" id="Ithaca">
+            <p class="text-justify" id="Ithaca">
                 <!-- Inject your Ithaca paragraph here -->
             </p>
         </article>
@@ -131,7 +176,7 @@
         <article class="row">
             <h2 class="col-md-10 col-xs-offset-1 col-xs-10">Gavdos</h2>
             <img class="col-md-10 col-xs-offset-1 col-xs-10" src="Assets/images/gavdos.jpg" alt="Gavdos">
-            <p class="col-md-10 col-xs-offset-1 col-xs-10" id="Gavdos">
+            <p class="text-justify" id="Gavdos">
                 <!-- Inject your Gavdos paragraph here -->
             </p>
         </article>
