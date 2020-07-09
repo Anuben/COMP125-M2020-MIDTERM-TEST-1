@@ -1,0 +1,28 @@
+/* custom syle sheet */
+
+/* File Name: app.js
+Author's Name: Anuben Keshavala
+Web Site Name: COMP-125-Midterm-Test
+File Description:  Related to Tour */
+
+.navbar {
+    opacity: 0.8;
+}
+
+#MainTitle {
+    font-size: 4em;
+    color: #5690CF;
+    padding-top: 1em
+}
+
+main {
+    padding-top: 4.375em
+}
+
+article, section {
+    font-size: 1.35em;
+}
+
+#contactForm {
+    margin-bottom: 4em;
+}
