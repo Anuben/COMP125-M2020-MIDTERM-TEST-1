@@ -2,8 +2,8 @@
 
 // File Name: app.js
 // Author's Name: Anuben Keshavala
-// Web Site Name: COMP-125-Midterm-Test
-// File Description:  Related to Tour
+// Web Site Name: The Travel Reportt
+// File Description: Travel Report
 
 
 
@@ -13,7 +13,8 @@
     
 
 
-// YOUR CODE GOES HERE
+// Paragraphs that will go in index file
+
 document.getElementById("IntroParagraph").innerHTML=` Now is the time to travel to Greece. The country may be going through an economic crisis, but many travellers say that it hasn't impacted the experience of visiting. Plus, there may be some great deals. 
 
 Greece has 1,400 islands , though only 230 of them are inhabited. 
@@ -40,49 +41,8 @@ document.getElementById("Ithaca").innerHTML=`Most famous for being the home of O
 document.getElementById("Gavdos").innerHTML=`Near the more well-known Crete, Gavdos is the most southern island in Greece — and the most southern spot in Europe discounting the Canaries. Only accessible by ferry, the remote island has only about 50 permanent residents, and can feel like your private playground. Local legend has it that the island was the home of goddess Calypso, who kept Odysseus prisoner here. Today, a favorite tourist activity is to visit the spot believed to be her cave. Be warned, you won't find any luxury hotels here. While the romantically under-developed, super laid back island has a number of rooms for rent, those are limited, as the real draw here for many is the free, seaside camping.
 `;
 
-/* function validateForm()
-{
-    let contactForm = document.forms[0];
 
-    if(contactForm)
-    {
-        
-        contactForm.noValidate = true;
-
-        let errorMessage = document.getElementById("errorMessage");
-
-        let firstName = document.getElementById("firstName");
-        firstName.addEventListener("blur", (event) => 
-        {
-            if(firstName.value.length < 2)
-            {
-                firstName.focus();
-                errorMessage.hidden = false;
-                errorMessage.textContent = "Please enter a valid First Name with a length of 2 or more characters";
-            }
-            else
-            {
-                errorMessage.hidden = true;
-            }
-
-        });
-        
-
-            let sendButton = document.getElementById("sendButton");
-
-            sendButton.addEventListener("click", (event) =>
-            {
-                event.preventDefault();
-                console.log("Submit Button Clicked");
-
-            });
-    
-     }
-      return false;  
- 
-}  
- */
-
+// Console part
 
 let firstN = document.getElementById('firstName');
 document.getElementById('contactForm').addEventListener('submit', function (e) {
@@ -129,6 +89,7 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
     
 
 });
+
 function Start()
 {
     console.log('%cApp Started...', "color: black; font-size: 24px;");
