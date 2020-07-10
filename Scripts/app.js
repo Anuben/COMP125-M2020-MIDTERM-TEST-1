@@ -80,15 +80,17 @@ document.getElementById("Gavdos").innerHTML=`Near the more well-known Crete, Gav
      }
       return false;  
  
-}  */
-
+}  
+ */
 
 
 let firstN = document.getElementById('firstName');
 document.getElementById('contactForm').addEventListener('submit', function (e) {
 
     e.preventDefault();
-    console.log(firstN.value);
+    
+    console.log("First Name: " + firstN.value);
+    
 
 });
 
@@ -96,7 +98,7 @@ let lastN = document.getElementById('lastName');
 document.getElementById('contactForm').addEventListener('submit', function (e) {
 
     e.preventDefault();
-    console.log(lastN.value);
+    console.log("Last Name: " + lastN.value);
     
 
 });
@@ -105,7 +107,7 @@ let contactNumber = document.getElementById('contactNumber');
 document.getElementById('contactForm').addEventListener('submit', function (e) {
 
     e.preventDefault();
-    console.log(contactNumber.value);
+    console.log("Contact Number: " + contactNumber.value);
     
 
 });
@@ -114,7 +116,7 @@ let email = document.getElementById('email');
 document.getElementById('contactForm').addEventListener('submit', function (e) {
 
     e.preventDefault();
-    console.log(email.value);
+    console.log("Email: " + email.value);
     
 
 });
@@ -123,30 +125,15 @@ let shortMessage = document.getElementById('yourMessage');
 document.getElementById('contactForm').addEventListener('submit', function (e) {
 
     e.preventDefault();
-    console.log(shortMessage.value);
+    console.log("Short Message: " + shortMessage.value);
     
 
 });
-
-
-
-
-
-   
-    
-
-
-/* document.getElementById("sendButton").addEventListener("click", myFun);
-return;
-function myFunction(){
-
-    let fn = document.getElementById("firstName").value;
-    console.log("FirstName: " + fn);
-        
-    } */
-
-
-
+function Start()
+{
+    console.log('%cApp Started...', "color: black; font-size: 24px;");
+}
+window.addEventListener("load", Start);
 
 
 })();
